@@ -1,0 +1,20 @@
+[
+  {
+    "id": "Tom",
+    "name": "<a href=''>apidsl.get(readpdf).letpdf.list(*pdf).letcsv.render()</a>",
+    "description": "...",
+    "price": "FREE"
+  },
+  {
+    "id": "Softreck",
+    "name": "apidsl.get(readpdf).letpdf.list(*pdf).letcsv.render()",
+    "description": "...",
+    "price": "$1"
+  },
+  {
+    "id": "Infreck",
+    "name": "apidsl.get(readpdf).letpdf.list(*pdf).letcsv.render()",
+    "description": "...",
+    "price": "$2"
+  }
+]
