@@ -74,27 +74,23 @@
             <div class="collapse navbar-collapse" id="navbarExample01">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">Functions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Applications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Libraries</a>
+                        <a class="nav-link" aria-current="page" href="#">Order [?]</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Templates</a>
+                        <a class="nav-link" href="#">Develop [i] </a>
                     </li>
+
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Providers</a>
+                        <a class="nav-link" href="#">Deploy [>] </a>
                     </li>
+
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Organisations</a>
+                        <a class="nav-link" href="#">Buy [$] </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Developers</a>
-                    </li>
+
                 </ul>
             </div>
         </div>
@@ -102,68 +98,72 @@
     <!-- Navbar -->
 
 
-    <nav class="navbar navbar-expand-lg bg-primary text-white" >
 
-        <div class="container">
-
-
-            <div class="container p-3">
-                <!-- <input class="form-control form-control-lg" type="text" placeholder="Large input">-->
-
-                <div class="input-group">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-mdb-toggle="dropdown"
-                            aria-expanded="false">
-                        LANGUAGE: APIDSL
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#language#python">Python</a></li>
-                        <li><a class="dropdown-item" href="#language#bash">BASH</a></li>
-                        <li><a class="dropdown-item" href="#language#php">PHP</a></li>
-                        <li><a class="dropdown-item" href="#language#js">JavaScript</a></li>
-                        <li><a class="dropdown-item" href="#language#java">JAVA</a></li>
-                    </ul>
-                    <!-- Large input apidsl.get("letpdf").letpdf.list("*pdf").letcsv.toHtml() -->
-                    <input type="text" class="form-control" aria-label="Text input with 2 dropdown buttons"
-                           aria-valuetext="apidsl.get(readpdf).letpdf.list(*pdf).letcsv.render()"
-                           value="apidsl.get(readpdf).letpdf.list(*pdf).letcsv.render()"
-                    />
+    <div class="bg-primary text-white">
 
 
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-mdb-toggle="dropdown"
-                            aria-expanded="false">
-                        RUN
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#deploy#aws">deploy on AWS</a></li>
-                        <li><a class="dropdown-item" href="#deploy#gcp">deploy on GCP</a></li>
-                        <li><a class="dropdown-item" href="#deploy#ibm">deploy on IBM</a></li>
-                        <li><a class="dropdown-item" href="#deploy#rpi">deploy on Raspberry PI</a></li>
-                        <li><a class="dropdown-item" href="#deploy#vps">deploy on VPS</a></li>
-                        <li><a class="dropdown-item" href="#deploy#local">deploy local</a></li>
-                        <li><a class="dropdown-item" href="#deploy#gitlab">deploy over Gitlab</a></li>
-                        <li><a class="dropdown-item" href="#deploy#github">deploy over Github</a></li>
-                    </ul>
+        <div class="container p-3 me-auto mb-2 mb-lg-0">
+
+
+            <form>
+                <h1> 1.description</h1>
+                Aplikacja typu INPUT - OUTPUT
+                2 podstrony
+                1 logika
+                dane wjeściowe i wyjściowe
+                <div class="input-group p-2">
+                    <input autocomplete="off" type="search" class=""
+                           placeholder='Description function'
+                           value="Program do rozponzawina tekstu i konwersji plików pdf do tekstu. PO załadowaniu pliku ma się pojawić na liście faktur."/>
                 </div>
 
-            </div>
+                <h1>2. input</h1>
+                <div class="input-group p-2">
+                    <input autocomplete="off" type="search" class=""
+                           placeholder='Description Of INPUT DATA and Functions'
+                           value="upload pliku pdf"/> Zasada działania na wejściu
+                </div>
+                <div class="input-group p-2">
 
-        </div>
-    </nav>
+                    <input autocomplete="off" type="search" class=""
+                           placeholder='Frontside'
+                           value=" na środku input upload"/> wygląd panelu wejściowego
 
-    <!-- Container wrapper -->
-    <div class="container">
+                </div>
+                <div class="input-group p-2">
 
-            <div class="container p-3 ">
+                    <input autocomplete="off" type="search" class=""
+                           placeholder="Data"
+                           value="folder lub pojedyncze pliki pdf"/> Jakie dane wejściowe
+                </div>
 
 
-                <!-- Search form -->
-                <form class="d-none d-md-flex input-group w-auto my-auto">
-                    <input autocomplete="off" type="search" class="form-control rounded"
-                           placeholder='Search (ctrl + "/" to focus)'
-                           style="min-width: 125px"
-                           value="#apidsl #java #php #javascript #python #golang"/>
-                    <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
-                </form>
+                <h1>3. output</h1>
+
+                <div class="input-group p-2">
+                    <input autocomplete="off" type="search" class=""
+                           placeholder='Description Of INPUT DATA and Functions'
+                           value="lista faktur z cenami"/> Zasada działania na wyjściu
+                </div>
+
+                <div class="input-group p-2">
+
+                    <input autocomplete="off" type="search" class=""
+                           placeholder='Frontside'
+                           value="jak ma wyglądać, opis"/> Wygląd panelu wyjściowego
+
+                </div>
+
+                <div class="input-group p-2">
+                    <input autocomplete="off" type="search" class=""
+                           placeholder="Data"
+                           value="1 plik csv"/> Jakie dane wyjściowe
+                    + pytania pomocnicze, co, ile, jak
+
+                </div>
+
+
+            </form>
 
         </div>
     </div>
@@ -171,17 +171,7 @@
 
     <!--Main Navigation-->
 
-    <div class="container">
-        <table id="table">
-            <thead style="background-color: rgba(0, 0, 0, 0.1);">
-            <tr>
-                <th data-field="id">USER</th>
-                <th data-field="name">APP NAME</th>
-                <th data-field="description">APP DESCRIPTION</th>
-                <th data-field="price">COST</th>
-            </tr>
-            </thead>
-        </table>
+    <div class="container input-group p-3">
 
     </div>
 
